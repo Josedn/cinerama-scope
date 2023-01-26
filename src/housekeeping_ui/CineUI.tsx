@@ -4,15 +4,13 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-import LoginPage from "./pages/login/LoginPage";
-import HomePage from "./pages/home/HomePage";
+import WatchPage from "./pages/watch/WatchPage";
 
 export default function CineUI() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<LoginPage />} />
-                <Route path="/home" element={<HomePage />} />
+                <Route path="/" element={<WatchPage />} />
             </Routes>
         </BrowserRouter>
     );
